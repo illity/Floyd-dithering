@@ -3,7 +3,7 @@ import numpy as np
 
 possibilidades_cor=2
 preto_e_branco=True
-zoom = (150,200)
+zoom = (0,20)
 floyd = cv2.imread('t2.jpeg')
 frames=[]
 writer = cv2.VideoWriter("floyd.mp4", cv2.VideoWriter_fourcc(*"xvid"), 30,(2*floyd.shape[1],floyd.shape[0]))
